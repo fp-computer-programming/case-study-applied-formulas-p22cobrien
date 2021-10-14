@@ -7,4 +7,4 @@ y_2 = input("what is the 2nd y coordinate? ")
 
 distance = ((((float(x_2) - float(x_1)) ** 2) + ((float(y_2) - float(y_1)) ** 2)) ** 0.5)
 
-print(distance)
+print("the distance between the two points is " + str(distance))
